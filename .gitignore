@@ -1,0 +1,5 @@
+.ipynb_checkpoint
+__pychache__
+*.pkl
+*.tmp
+*.png
