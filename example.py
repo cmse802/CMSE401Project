@@ -18,4 +18,4 @@ def getWeightsFromLabels(labelStack):
 	normedWeights = [1 - (x / sum(nSamples)) for x in nSamples]
 	return normedWeights
 
-getWeightsFromLabels("profLabels.h5")
+print(getWeightsFromLabels("profLabels.h5"))
