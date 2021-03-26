@@ -11,7 +11,7 @@ The software I am working with is the pytorch_connectomics package that was crea
 
 222222222222222222222222222222222222222222222222222222222222222222
 ==================================================================
-To install the necissary requirements, run the following commands
+To install the necissary requirements, run the following commands (the commands can also be run using ./installScript.sh that is in my github. It will create a projectFolder wherever the working directory is)
 
 
 module load python

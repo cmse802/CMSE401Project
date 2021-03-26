@@ -3,7 +3,7 @@ import h5py
 
 def getWeightsFromLabels(labelStack):
 	h = h5py.File(labelStack, 'r')
-	data = h['dataset_1']
+	data = np.array(h['dataset_1'])
 	h.close()
 	unique, counts = np.unique(data, return_counts=True)
 	d = dict(zip(unique, counts))
